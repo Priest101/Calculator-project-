@@ -1,7 +1,7 @@
   using system
 namespace Calculator
 {
-    public partial class PROJECT:form;
+    public partial class Function1:form;
     {
         string input=string.Empty;
         string operand1=string.Empty;
