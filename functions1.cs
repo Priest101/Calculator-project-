@@ -128,9 +128,10 @@ namespace Calculator
        private void buttonpercent_click(object sender,EventArgs e)  
     {
       
-    operand1=input;
+    operand1=input; 
+      double.TryParse(operand1,out num1);
     operation='%';
-    result=num1%
+    result=num1%;
      TextBox1.Text=result.Tostring();
     }
        private void buttonequalsto_click(object sender,EventArgs e)  
