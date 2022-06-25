@@ -145,24 +145,24 @@ namespace Calculator
       result=num1+num2;
       TextBox1.Text=result.Tostring();
     }
-     elseif(operation=='-')
+     else if(operation=='-')
     {
       result=num1-num2;
       TextBox1.Text=result.Tostring();
     }
-     elseif(operation=='*')
+     else if(operation=='*')
     {
       result=num1*num2;
       TextBox1.Text=result.Tostring();
     }
-     elseif(operation=='/')
+     else if(operation=='/')
     {
       result=num1/num2;
       TextBox1.Text=result.Tostring();
     }
     else
     {
-      TextBox1.Text="error"
+      TextBox1.Text="error";
     }
 
 }   
